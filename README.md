@@ -87,6 +87,16 @@ Evidencia: en el conjunto `test` hay 120 imágenes con 240 instancias, de las cu
 
 **Consecuencia:** para **contar alicates** hay que contar únicamente las cajas `Plier`. Contar todas las cajas duplicaría el resultado. La función `analizar()` de `detectar.py` ya lo hace: cuenta las cajas `Plier` y le asigna a cada una el tipo cuya caja tenga el centro dentro de ella.
 
+## Archivos pesados (Google Drive)
+
+Los archivos que no caben en el repo están aquí:
+[Drive de lso resultados del entrenamiento](https://drive.google.com/drive/folders/1f6xY1D1Wb4KUcm1e23A8IaN9_GtFq2YS?usp=sharing)
+[Link de el dataset de alicates.](https://universe.roboflow.com/lbymf2h-pliers/pliers-s1ike)
+
+Contenido:
+- `pliers_dataset.zip`: dataset de Roboflow ya preparado.
+- `runs/alicates_v1/`: resultados del entrenamiento (pesos, métricas, matriz de confusión).
+
 ---
 
 ## Estructura del proyecto
