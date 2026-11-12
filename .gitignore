@@ -1,0 +1,12 @@
+# Dataset (se descarga de Roboflow)
+pliers_dataset/
+dataset/
+
+# Resultados de entrenamiento
+runs/
+
+# Entorno y cachés
+__pycache__/
+*.pyc
+.venv/
+.vscode/
